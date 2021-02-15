@@ -1,0 +1,37 @@
+Arduino duel
+
+*Turn based virtual game 
+*The arduino start each with 1000 HP (health points) each and will attack and parry each other every turn.
+*Two arduinos connected to each other in series will send a random number between 1 to 200 as a damage indicator to the other, 
+ that number will be subtracted from the 1k HP of the other.
+*They use the LCD to display HP on the upper row and attack on the lower bar.
+*3 buttons on each board will indicate the attack/parry position (left, above, right).
+*each arduino will attack once per turn, the other will parry based on the buttons that have been pressed. 
+
+
+pros:
+
+- original idea, i haven't seen anything like this online
+- will use both arduinos as requested by the project, since we're only 2 people here, this is perfect.
+- it doesn't seem too hard to make, but it isn't too easy either, should be good enough for a project.
+- it's functional, instead of doig something we don't care about at all, this could actually be fun.
+- the labs we're doing are useful for this project.
+- possible to expand with other features, like a random event for the duel with a sensor, or leds implementation.
+- use of external input (LCD, buttons and possible other sensors/tools) 
+  
+
+requirements:
+
+- at least 2 people (met)
+- 1 arduino per person (met)
+- use of 2 external devices per person (we already use 2xlcd + 6xbutton, met)
+- communication mechanism (in series, or we can upgrade to bluetooth, met)
+- origianl work (seems like we met this one too)
+
+
+challenge:
+
+- need to do research on how to connect everything.
+- need to make them communicate through code and create the whole hp/damage idea. 
+  (I don't know if we should do 2 separate codes, or 1) 
+- will eat some time to figure stuff out. (yo that's expected anyway)
